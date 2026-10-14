@@ -1,0 +1,16 @@
+# TCC-Futebol-ML
+# Dependências utilizadas pelo notebook completo e pela API.
+# O scikit-learn é fixado na versão usada para gerar os modelos .joblib.
+
+kagglehub
+rapidfuzz
+pandas
+numpy
+scikit-learn==1.6.1
+matplotlib
+tensorflow
+joblib
+fastapi
+uvicorn
+httpx
+requests
