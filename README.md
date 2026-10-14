@@ -986,7 +986,6 @@ O arquivo `requirements.txt` registra as dependências necessárias para execuç
 
 A versão do Scikit-learn foi fixada em:
 
-```text
 scikit-learn==1.6.1
 ```
 
