@@ -1,0 +1,9 @@
+{
+    "modelo_tecnico": "KNN",
+    "tamanho_pool_tecnico": 30,
+    "peso_tecnico": 0.55,
+    "peso_financeiro": 0.35,
+    "peso_idade": 0.1,
+    "restricao_financeira": "valor_candidato < valor_referencia",
+    "data_limite_mercado": "2025-06-30"
+}
