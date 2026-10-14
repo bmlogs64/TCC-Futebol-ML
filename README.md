@@ -912,22 +912,12 @@ Principais tecnologias e bibliotecas:
 
 ## Notebook completo
 
-Para executar todas as etapas do notebook em um ambiente Python que não possua as bibliotecas instaladas:
+As dependências necessárias para execução do projeto estão listadas no arquivo `requirements.txt`.
+
+Para instalar as dependências:
 
 ```bash
-pip install \
-    kagglehub \
-    rapidfuzz \
-    pandas \
-    numpy \
-    scikit-learn \
-    matplotlib \
-    tensorflow \
-    joblib \
-    fastapi \
-    uvicorn \
-    httpx \
-    requests
+pip install -r requirements.txt
 ```
 
 O Google Colab já fornece parte dessas bibliotecas por padrão.
@@ -991,28 +981,14 @@ O notebook foi desenvolvido e executado principalmente no Google Colab.
 
 Como o ambiente do Colab pode receber atualizações ao longo do tempo, as instalações atualmente presentes no notebook não fixam todas as versões das bibliotecas.
 
-Para registrar exatamente as versões de um ambiente de execução, pode-se utilizar:
+```markdown
+O arquivo `requirements.txt` registra as dependências necessárias para execução do projeto.
 
-```bash
-pip freeze > requirements.txt
+A versão do Scikit-learn foi fixada em:
+
+```text
+scikit-learn==1.6.1
 ```
-
-ou, para consultar somente as principais dependências:
-
-```bash
-pip show \
-    pandas \
-    numpy \
-    scikit-learn \
-    tensorflow \
-    fastapi \
-    uvicorn \
-    joblib \
-    kagglehub \
-    rapidfuzz
-```
-
-Para máxima reprodutibilidade, o arquivo `requirements.txt` deve ser gerado no mesmo ambiente utilizado para a execução final do trabalho.
 
 ---
 
