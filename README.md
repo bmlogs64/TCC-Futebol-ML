@@ -981,7 +981,6 @@ O notebook foi desenvolvido e executado principalmente no Google Colab.
 
 Como o ambiente do Colab pode receber atualizações ao longo do tempo, as instalações atualmente presentes no notebook não fixam todas as versões das bibliotecas.
 
-```markdown
 O arquivo `requirements.txt` registra as dependências necessárias para execução do projeto.
 
 A versão do Scikit-learn foi fixada em:
