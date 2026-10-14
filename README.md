@@ -825,11 +825,12 @@ Esse teste confirma que o fluxo apresentado durante a demonstração reproduz o 
 Estrutura recomendada para entrega/repositório:
 
 ```text
-TCC_Futebol/
+TCC-Futebol-ML/
 │
 ├── TCC_Futebol.ipynb
 ├── api.py
 ├── README.md
+├── requirements.txt
 │
 └── modelos/
     ├── knn_fw.joblib
